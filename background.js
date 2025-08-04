@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((m, s, r) => { if (['DELETE_SELECTED', 'ADD_CHECKBOXES', 'REMOVE_CHECKBOXES', 'GET_SELECTED_COUNT'].includes(m.type) && s.tab) { chrome.tabs.sendMessage(s.tab.id, m, r); return true; } });
