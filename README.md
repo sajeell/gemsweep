@@ -34,9 +34,7 @@ GemSweep is a Chrome extension designed to enhance your experience with Gemini c
 
 GemSweep requires the following permissions:
 
-- `scripting`: To inject scripts into the Gemini conversation list.
 - `activeTab`: To interact with the currently active tab.
-- `storage`: To store user preferences.
 
 ## Host Permissions
 
